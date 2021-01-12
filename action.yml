@@ -10,8 +10,8 @@ inputs:
     required: false
   sync-labels:
     description: 'Whether or not to remove labels when matching files are reverted'
-    default: false
-    required: false
+    default: t
+    required: 
 
 runs:
   using: 'node12'
